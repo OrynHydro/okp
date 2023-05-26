@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Блог</title>
+
+    <link rel="stylesheet" href="/assets/css/footer.css">
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/root.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8.4.7/swiper-bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/swiper@8.4.7/swiper-bundle.min.css" rel="stylesheet">
+
+    
+
+</head>
+<body>
+
+    <!-- Start of Header  -->
+    <header>
+        <div class="wrap">
+            <div class="header__body">
+                <div class="header__body-block1">
+                    <div class="header__body-logo">
+                        <img src="/assets/images/logo/logo.svg" alt="logo">
+                    </div>
+                    <div class="header__body-menu">
+                        <a href="/Pages/howToBuyPage/index.html" class="header__body-item">Как покупать</a>
+                        <a href="/Pages/salesPage/index.html" class="header__body-item">Распродажи</a>
+                        <a href="/Pages/deliveryPage/index.html" class="header__body-item">Цены</a>
+                        <a href="/Pages/answeringQuestionsPage/index.html" class="header__body-item">Помощь</a>
+                        <a href="/Pages/partnershipPage/index.html" class="header__body-item">Бонусы</a>
+                        <a href="/Pages/blogPage/index.html" class="header__body-item">Блог</a>
+                        <a href="/Pages/popularShopsPage/index.html" class="header__body-item">Магазины</a>
+                    </div>
+                </div>
+                <div class="header__body-block2">
+                    <div class="header__body-login login__body">
+                        <div class="login__body-icon">
+                            <img src="/assets/images/icon/User.svg" alt="">
+                        </div>
+                        <button onclick="openLoginWindow()" class="login__body-btn">Вход</button>
+                    </div>
+                    <button class="header__body-btn">Связаться с нами</button>
+                    
+                    <div class="header__body-burger_menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pop-up-login" id="pop_up_login">
+            <div class="pop-up-login__cross-body">
+                <div class="pop-up-login__cross" onclick="closeLoginWindow()"></div>
+            </div>
+            <div class="pop-up-login__body">
+                <h1 class="pop-up-login__body-title">Выполните вход в ваш личный кабинет </h1>
+                <form action="#" class="pop-up-login__body-form">
+                    <label for="teleohone" class="pop-up-login__body-lable">Номер телефона:</label>
+                    <input type="tel" id="telephone" class="pop-up-login__body-item" required>
+                    <label for="email" class="pop-up-login__body-lable">Ваш email:</label>
+                    <input type="email" id="email" class="pop-up-login__body-item" required>
+                    <label for="password" class="pop-up-login__body-lable">Ваш пароль:</label>
+                    <input type="password" id="password" class="pop-up-login__body-item" required>
+                    <div class="pop-up-login__body-link">
+                        <a href="#">Восстановление пароля</a>
+                        <span>или</span> 
+                        <a href="#">быстрая регистрация</a>
+                    </div>
+                    <div class="pop-up-login__body-buttom">
+                        <button type ="submit" class="pop-up-login__body-btn">Войти</button>
+                        <div class="pop-up-login__body-social">
+                            <a href="#" class="pop-up-login__body-socisl_icon">
+                                <img src="/assets/images/icon/Google.svg" alt="">
+                            </a>
+                            <a href="#" class="pop-up-login__body-socisl_icon">
+                                <img src="/assets/images/icon/Facebook.svg" alt="">
+                            </a>
+                            <a href="#" class="pop-up-login__body-socisl_icon">
+                                <img src="/assets/images/icon/Vkontakte.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <!-- Start of Main -->
+
+    <main>
+
+        <div class="background-wrap">
+            <div class="wrap">
+                <div class="background-container">
+                    <p class="background-links">
+                        <a href="/Pages/deliveryPage/index.html">Главная⠀</a>
+                        <a>/</a>
+                        <a href="/Pages/deliveryPage/index.html">⠀Блог</a>
+                    </p>
+                    <h1 class="background-title">Блог</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="main-block">
+                        <div class="imgBlock block1"></div>
+                        <h4>Интернет-магазин Urban Outfitters в UK: обзор</h4>
+                        <div class="additionBlock">
+                            <p>22.10.2021</p>
+                            <div class="timeBlock">
+                                <img src="/assets/images/img/blogPageImg/Clock.svg" alt="clock">
+                                <p>Читать: 8 минут</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-block">
+                        <div class="imgBlock block2"></div>
+                        <h4>Overstock. Брендовые товары по доступным ценам</h4>
+                        <div class="additionBlock">
+                            <p>22.10.2021</p>
+                            <div class="timeBlock">
+                                <img src="/assets/images/img/blogPageImg/Clock.svg" alt="clock">
+                                <p>Читать: 8 минут</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-block">
+                        <div class="imgBlock block3"></div>
+                        <h4>Skechers с Amazon. Удобная обувь для всей семьи</h4>
+                        <div class="additionBlock">
+                            <p>22.10.2021</p>
+                            <div class="timeBlock">
+                                <img src="/assets/images/img/blogPageImg/Clock.svg" alt="clock">
+                                <p>Читать: 8 минут</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="main-block">
+                        <div class="imgBlock block4"></div>
+                        <h4>16 лучших подарков с Амазона в 2021 году</h4>
+                        <div class="additionBlock">
+                            <p>22.10.2021</p>
+                            <div class="timeBlock">
+                                <img src="/assets/images/img/blogPageImg/Clock.svg" alt="clock">
+                                <p>Читать: 8 минут</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-block">
+                        <div class="imgBlock block5"></div>
+                        <h4>Target — семейный супермаркет с ценами от 300 рублей!</h4>
+                        <div class="additionBlock specialBlock">
+                            <p>22.10.2021</p>
+                            <div class="timeBlock">
+                                <img src="/assets/images/img/blogPageImg/Clock.svg" alt="clock">
+                                <p>Читать: 8 минут</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-block">
+                        <div class="imgBlock block6"></div>
+                        <h4>Английский магазин RIPNDIP. Покупаем самовыражение</h4>
+                        <div class="additionBlock">
+                            <p>22.10.2021</p>
+                            <div class="timeBlock">
+                                <img src="/assets/images/img/blogPageImg/Clock.svg" alt="clock">
+                                <p>Читать: 8 минут</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="main-block">
+                        <div class="imgBlock block7"></div>
+                        <h4>Nautica. Элитные товары из Англии по низким ценам</h4>
+                        <div class="additionBlock">
+                            <p>22.10.2021</p>
+                            <div class="timeBlock">
+                                <img src="/assets/images/img/blogPageImg/Clock.svg" alt="clock">
+                                <p>Читать: 8 минут</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-block">
+                        <div class="imgBlock block8"></div>
+                        <h4>Forever 21 - покупаем джинсы за 1 500 рублей</h4>
+                        <div class="additionBlock">
+                            <p>22.10.2021</p>
+                            <div class="timeBlock">
+                                <img src="/assets/images/img/blogPageImg/Clock.svg" alt="clock">
+                                <p>Читать: 8 минут</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-block">
+                        <div class="imgBlock block9"></div>
+                        <h4>Как купить кроссовки Balenciaga на 30 000 рублей дешевле?</h4>
+                        <div class="additionBlock specialBlock">
+                            <p>22.10.2021</p>
+                            <div class="timeBlock">
+                                <img src="/assets/images/img/blogPageImg/Clock.svg" alt="clock">
+                                <p>Читать: 8 минут</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="main-block">
+                        <div class="imgBlock block10"></div>
+                        <h4>Топ-7 самых дорогих сумок Louis Vuitton</h4>
+                        <div class="additionBlock">
+                            <p>22.10.2021</p>
+                            <div class="timeBlock">
+                                <img src="/assets/images/img/blogPageImg/Clock.svg" alt="clock">
+                                <p>Читать: 8 минут</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-block">
+                        <div class="imgBlock block11"></div>
+                        <h4>BH Cosmetics Galaxy. Галактика красоты и ухода </h4>
+                        <div class="additionBlock">
+                            <p>22.10.2021</p>
+                            <div class="timeBlock">
+                                <img src="/assets/images/img/blogPageImg/Clock.svg" alt="clock">
+                                <p>Читать: 8 минут</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-block">
+                        <div class="imgBlock block12"></div>
+                        <h4>“Вансы”. Крутые кеды, которые не выйдут из моды никогда!</h4>
+                        <div class="additionBlock specialBlock">
+                            <p>22.10.2021</p>
+                            <div class="timeBlock">
+                                <img src="/assets/images/img/blogPageImg/Clock.svg" alt="clock">
+                                <p>Читать: 8 минут</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </main>
+
+    <div class="delPage__prefooter">
+        <div class="delPage__prefooterContent">
+            <h1>Остались вопросы? Спросите нас в соцсетях!</h1>
+            <div class="delPage__prefooterContent-social">
+                <a href="#"><img src="/assets/images/img/calcPage/whatsUp.svg" alt="whatsupImg"></a>
+                <a href="#"><img src="/assets/images/img/calcPage/viber.svg" alt="viberImg"></a>
+                <a href="#"><img src="/assets/images/img/calcPage/chat.svg" alt="chatImg"></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+        <div class="footer__content">
+            <div class="footer__content-social">
+                <a href="#"><img src="/assets/images/logo/logo.svg" alt="logoImgfooter"></a>
+                <div class="footer__content-socialLinks">
+                    <a href="#"><img src="/assets/images/img/footer/whats.svg" alt="whatsUpImg"></a>
+                    <a href="#"><img src="/assets/images/img/footer/viber.svg" alt="ViberImg"></a>
+                    <a href="#"><img src="/assets/images/img/footer/chat.svg" alt="ChatImg"></a>
+                </div>
+            </div>
+            <div class="footer__content-links">
+                <ul>
+                    <li>О компании</li>
+                    <li><a href="#">Услуги</a></li>
+                    <li><a href="#">Цены</a></li>
+                    <li><a href="#">Oтзывы</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#">Вакансии</a></li>
+                    <li><a href="#">Соглашение о персональных данных</a></li>
+                    <li><a href="#">Условия использования</a></li>
+                </ul>
+                <ul>
+                    <li>Полезное</li>
+                    <li><a href="#">Как работает наш сервис</a></li>
+                    <li><a href="#">Как покупать с оператором</a></li>
+                    <li><a href="#">Ответы на частые вопросы</a></li>
+                    <li><a href="#">Популярные магазины</a></li>
+                    <li><a href="#">Черный список магазинов</a></li>
+                    <li><a href="#">Актуальные распродажи</a></li>
+                </ul>
+                <ul>
+                    <li>Спецпроекты</li>
+                    <li><a href="#">50% на первую доставку</a></li>
+                    <li><a href="#">Скидки для постоянных клиентов</a></li>
+                    <li><a href="#">Реферальная программа</a></li>
+                    <li><a href="#">Кэшбек Mr. Rebates и Rakuten</a></li>
+                    <li><a href="#">Stop Fraud</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="underFooter">
+            <a href="#">© 2021 Okeypost . Все права защищены.</a>
+        </div>
+    </footer>
+    
+    <!-- Start of js -->
+    <script src="/assets/js/app.js"></script>
+
+    
+    <script src="./js/app.js"></script>
+</body>
+</html>
